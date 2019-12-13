@@ -19,7 +19,7 @@ class Patient
   end 
   
   def appointments
-    
+    self.appointments.
   end
   
 end 
