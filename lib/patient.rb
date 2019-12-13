@@ -18,7 +18,7 @@ class Patient
   end 
   
   def appointments
-    Appointmenet.all.collect { |appointment| appointment.patient }
+    @appointments
   end
   
 end 
