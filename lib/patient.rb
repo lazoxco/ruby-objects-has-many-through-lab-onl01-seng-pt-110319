@@ -16,7 +16,7 @@ class Patient
   end 
   
   def appointments
-    self.Appointmenet.collect { |appointment| appointment.patient }
+    Appointmenet.collect { |appointment| appointment.patient }
   end
   
 end 
